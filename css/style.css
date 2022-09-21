@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  font-family: sans-serif;
+}
+p {
+  font-size: 13px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.479);
+  margin-bottom: 10px;
+}
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+strong {
+  list-style: none;
+  font-weight: lighter;
+  color: #000;
+  line-height: 35px;
+}
+a {
+  text-decoration: none;
+}
+.pad {
+  display: inline-block;
+  padding: 0;
+  color: #868e96;
+  line-height: 25px;
+}
+h1 {
+  padding-bottom: 40px;
+  font-weight: 100;
+  font-size: 30px;
+}
+.list {
+  grid-column: 1/3;
+}
+
+/**/
+#banner h1 {
+  color: #fff;
+  padding: 150px 0 0;
+}
+#banner span {
+  font-size: 14px;
+  font-weight: 100;
+  color: #f7f7f7;
+}
+.bg-img {
+  height: 1200px;
+  background-image: linear-gradient(
+      rgba(24, 24, 24, 0.6),
+      rgba(24, 24, 24, 0.6)
+    ),
+    url("banner.jpg");
+  background-size: cover;
+  background-position: center top;
+}
+
+/*Sơ yếu lí lịch*/
+#target {
+  background-color: #f7f7f7;
+  padding: 30px 50px 40px;
+}
+#personal-info {
+  padding: 30px 50px 40px;
+  background-color: #e4e4e4c2;
+}
+.info {
+  display: inline-block;
+  font-size: 13px;
+  line-height: 2;
+  color: rgba(0, 0, 0, 0.479);
+}
+.info span {
+  font-weight: bold;
+}
+
+#certificate {
+  background-color: #f7f7f7;
+}
+
+/*Dự án*/
+.head {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  border-top: 1px solid #ced4da;
+}
+.year {
+  padding: 10px 0 10px 10px;
+}
+.year-1 {
+  font-size: 11px;
+  padding: 3px 10px;
+  color: #f7f7f7;
+  background-color: #228be6;
+  border-radius: 20px;
+}
+.pro .pro-1 {
+  border: 1px solid #ced4da;
+}
+.pro-1 {
+  margin-bottom: 50px;
+}
+.pro-1 strong {
+  padding-left: 15px;
+}
+.pro-2 {
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 85px 1fr;
+  gap: 0px;
+}
+.pro-2 p {
+  padding: 10px 10px;
+  border-top: 1px solid #ced4da;
+}
+
+/*Liên kết*/
+#footer ul {
+  font-size: 13px;
+  gap: 20px;
+  background-color: #e9ecef;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+#footer ul a {
+  color: #aab2bb;
+}

@@ -1,0 +1,99 @@
+@media (max-width: 900px) {
+  @media (min-width: 675px) {
+    /**/
+    .a {
+      max-width: 725px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0 5%;
+    }
+    #about .container0 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    #job-info .container0 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin: 30px auto 30px;
+    }
+    .container {
+      height: 100%;
+    }
+
+    /*Sơ lược trang WEB*/
+    #nav-bar {
+      text-align: center;
+    }
+    #nav-bar .container0 {
+      display: grid;
+      justify-content: center;
+      grid-template-columns: 140px 140px 140px 140px;
+      border-collapse: collapse;
+    }
+    #nav-bar .container0 a {
+      background-color: rgba(255, 255, 255, 0.8);
+      border-left: 1px solid rgba(49, 49, 255, 0.233);
+      border-right: 1px solid rgba(49, 49, 255, 0.233);
+      padding: 10px 0px 5px 0px;
+      color: #000;
+      text-align: center;
+    }
+
+    /*Bằng cấp-chứng chỉ*/
+    #celes {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+    .web {
+      padding: 0 20px 0 20px;
+    }
+    .web img {
+      width: 230px;
+      padding-bottom: 10px;
+    }
+    .web-1 {
+      border-right: 1px solid #d6c08d;
+    }
+    .web-2 {
+      padding: 20px 0;
+      border-top: 1px solid #d6c08d;
+      display: flex;
+    }
+
+    /*Bản thân*/
+    .now {
+      border-radius: 5px;
+      background-color: #228be6;
+      color: #f7f7f7;
+      padding: 2px 10px;
+      display: inline;
+    }
+    .border {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      grid-template-rows: 50px 1fr;
+      padding: 20px;
+    }
+    .border h1 {
+      padding: 0;
+    }
+    .hobby {
+      display: grid;
+      padding-top: 24px;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 50px);
+      gap: 12px;
+      text-align: center;
+      margin-bottom: 12px;
+    }
+
+    /*Dự án*/
+    .pro {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@media (max-width: 680px) {
+  body {
+    width: 480px;
+    margin: 0 auto;
+  }
+  i {
+    width: 100%;
+    text-align: center;
+  }
+}
